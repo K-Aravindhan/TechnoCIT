@@ -1,0 +1,192 @@
+* {
+     margin: 0;
+     padding: 0;
+     height: auto;
+}
+
+body {
+     font-family: 'Ubuntu', sans-serif;
+     margin: 0 !important;
+}
+
+p {
+     font-family: 'Ubuntu', sans-serif;
+
+}
+
+.h {
+     font-family: Work Sans;
+}
+
+h2 {
+     font-size: 25px !important;
+}
+
+.kyc-section {
+     background: linear-gradient(112deg, #01204C 2.86%, #1A6CE0 87.34%);
+     height: 608px;
+}
+
+.card-section{
+     max-width: 80%;
+     display:grid;
+     grid-template-columns: 1fr 1fr;
+}
+
+.kyc-section-1-htag {
+     color: #ffffff;
+     font-size: 55px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     display: flex;
+     justify-content: start;
+     padding: 59px 59px 1px 59px;
+}
+
+.kyc-head-content {
+     display: grid;
+     grid-template-columns: auto auto;
+}
+
+.kyc-img-vector {
+     display: flex;
+     height: 449px;
+     width: 1411px;
+     transform: rotate(181deg);
+     justify-content: end;
+     align-items: center;
+     flex-shrink: 0;
+     position: absolute;
+     z-index: 1;
+     margin-top: -63px;
+     margin-left: 612px;
+}
+
+.kyc-card-group-img {
+     display: flex;
+     justify-content: center;
+}
+
+.kyc-grid-col {
+     display: flex;
+     justify-content: center;
+     align-items: stretch;
+     position: relative;
+     top: 50px;
+}
+
+.kyc-card {
+     width: 320px;
+     padding: 21px;
+     margin-top: 64px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     transition: transform 330ms ease-in-out;
+     background-color: #ececec;
+     border-radius: 10px;
+     overflow: hidden;
+     top: 30px;
+}
+
+.kyc-card:hover {
+     cursor: pointer;
+     box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
+     transform: scale(1.2);
+     position: relative;
+     z-index: 1;
+}
+
+.kyc-para {
+     color: white;
+     padding-left: 148px;
+     font-size: 20px;
+}
+
+.kyc-circle-img {
+     position: relative;
+     margin-top: -17px;
+     margin-left: 99px;
+     width: 100px;
+     height: 80px;
+}
+
+.kyc-section-2 {
+     padding-bottom: 300px;
+}
+
+@media screen and (max-width:600px) {
+
+     .kyc-section-1-htag {
+          font-size: 26px;
+          padding: 0 0 0 30px;
+     }
+
+     .kyc-section-2 {
+          display: none;
+     }
+
+     .container-fluid {
+          padding: 27px 0px 90px 0;
+     }
+
+     .kyc-para {
+          padding: 20px 0 0 0;
+     }
+
+     .kyc-card {
+          padding-top: 0px;
+     }
+
+     .kyc-grid-col {
+          padding-top: 30px;
+     }
+
+     .kyc-circle-img {
+          margin: 0;
+          position: relative;
+          margin-top: 0px;
+          margin-left: 105px;
+     }
+
+     .kyc-section {
+          height: auto !important;
+     }
+}
+
+@media screen and (min-width:601px) and (max-width:1062px) {
+
+     * {
+          margin: 0;
+          padding: 0;
+          height: auto;
+     }
+
+     /* .kyc-section-1-htag {
+          color: #ffffff;
+          font-size: 55px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          display: grid;
+          justify-content: start;
+          padding: 59px 59px 1px 59px;
+     } */
+
+     /* .row {
+           position: relative !important;
+           display: grid !important;
+           grid-template-columns: 1fr 1fr !important;
+     } */
+
+     .container-fluid {
+          padding: 27px 0px 90px 0;
+     }
+
+     .kyc-para {
+          padding: 20px 0 0 0;
+     }
+
+     .kyc-card {
+          padding-top: 0px;
+     }
+}
